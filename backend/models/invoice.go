@@ -7,7 +7,7 @@ type Invoice struct {
 	Owner      Seller
 	Bank       BankInfo
 	Customer   Buyer
-	items      []Product
+	Items      []Product
 	Subtotal   float64
 	Tax        float64
 	Discounts  float64
