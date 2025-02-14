@@ -1,7 +1,5 @@
 package models
 
-import "time"
-
 type Invoice struct {
 	ID         int
 	Owner      Seller
@@ -12,8 +10,8 @@ type Invoice struct {
 	Tax        float64
 	Discounts  float64
 	GrandTotal float64
-	DueDate    time.Time
+	DueDate    string
 	Status     string
-	CreatedAt  time.Time
+	CreatedAt  string
 	Notes      []string
 }
